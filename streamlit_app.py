@@ -59,7 +59,7 @@ if not st.session_state.ujian_selesai and daftar_soal:
         tombol_selesai = st.form_submit_button("Selesai Ujian")
         if tombol_selesai:
             st.session_state.ujian_selesai = True
-            st.experimental_rerun()
+            st.rerun()
 
 # --- TAMPILAN HASIL DAN PEMBAHASAN ---
 elif st.session_state.ujian_selesai and daftar_soal:
@@ -96,7 +96,7 @@ elif st.session_state.ujian_selesai and daftar_soal:
     if st.button("Ulangi Ujian"):
         st.session_state.ujian_selesai = False
         st.session_state.jawaban_pengguna = {}
-        st.experimental_rerun()
+        st.rerun()
 
 elif not daftar_soal:
     st.info("Tidak ada soal yang tersedia atau file soal gagal dimuat.")
