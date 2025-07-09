@@ -81,8 +81,19 @@ elif st.session_state.ujian_selesai and daftar_soal:
             jawaban_benar = soal['jawaban_benar']
             jawaban_user = st.session_state.jawaban_pengguna.get(i)
             
-            st.write(f"Jawaban Anda: **{jawaban_user.upper() if jawaban_user else 'Tidak dijawab'}**")
-            st.write(f"Kunci Jawaban: **{jawaban_benar.upper()}**")
+            # ... (bagian kode sebelumnya)
+            jawaban_benar_key = soal['jawaban_benar']
+            jawaban_benar_lengkap = f"{jawaban_benar_key.upper()}. {soal['pilihan'][jawaban_benar_key]}"
+
+            jawaban_user_key = st.session_state.jawaban_pengguna.get(i)
+            if jawaban_user_key:
+                jawaban_user_lengkap = f"{jawaban_user_key.upper()}. {soal['pilihan'][jawaban_user_key]}"
+            else:
+                jawaban_user_lengkap = "Tidak dijawab"
+
+            st.write(f"Jawaban Anda: **{jawaban_user_lengkap}**")
+            st.write(f"Kunci Jawaban: **{jawaban_benar_lengkap}**")
+# ... (dst)
 
             if jawaban_user == jawaban_benar:
                 st.markdown("✅ **Benar**")
