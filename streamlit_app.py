@@ -1,6 +1,7 @@
 import streamlit as st
 import json
 import os
+import streamlit.components.v1 as components
 
 # --- PENGATURAN AWAL ---
 st.set_page_config(page_title="Aplikasi Ujian Online", layout="wide")
@@ -63,11 +64,19 @@ if not st.session_state.ujian_selesai and daftar_soal:
 
 # --- TAMPILAN HASIL DAN PEMBAHASAN ---
 elif st.session_state.ujian_selesai and daftar_soal:
-    st.markdown("""
+    
+    components.html(
+        """
         <script>
-            window.parent.document.querySelector('section.main').scrollTo(0, 0);
+        const streamlitDoc = window.parent.document;
+        const stApp = streamlitDoc.querySelector('.stApp');
+        if (stApp) {
+            stApp.scrollTo(0, 0);
+        }
         </script>
-        """, unsafe_allow_html=True)
+        """,
+        height=0
+    )
     st.header("✨ Hasil Ujian Anda")
     
     skor = 0
