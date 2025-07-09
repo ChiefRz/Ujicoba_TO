@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "Apa ibukota negara Indonesia?",
+    "pilihan": {
+      "a": "Bandung",
+      "b": "Surabaya",
+      "c": "Jakarta",
+      "d": "Medan"
+    },
+    "jawaban_benar": "c",
+    "penjelasan": "Jakarta adalah ibukota resmi Republik Indonesia dan merupakan kota terbesar di negara ini. Ditetapkan sebagai ibukota sejak kemerdekaan Indonesia pada tahun 1945."
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Siapakah presiden pertama Republik Indonesia?",
+    "pilihan": {
+      "a": "Soeharto",
+      "b": "Soekarno",
+      "c": "B.J. Habibie",
+      "d": "Joko Widodo"
+    },
+    "jawaban_benar": "b",
+    "penjelasan": "Ir. Soekarno adalah proklamator kemerdekaan Indonesia bersama Mohammad Hatta dan menjabat sebagai presiden pertama Indonesia dari tahun 1945 hingga 1967."
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Rumus kimia untuk air adalah...",
+    "pilihan": {
+      "a": "O2",
+      "b": "CO2",
+      "c": "H2O",
+      "d": "NaCl"
+    },
+    "jawaban_benar": "c",
+    "penjelasan": "H2O adalah rumus kimia untuk air, yang menunjukkan bahwa satu molekul air terdiri dari dua atom hidrogen (H) dan satu atom oksigen (O)."
+  }
+]
