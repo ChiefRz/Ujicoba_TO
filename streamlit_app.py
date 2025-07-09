@@ -11,7 +11,7 @@ st.write("Jawablah pertanyaan di bawah ini dengan memilih salah satu jawaban yan
 @st.cache_data # Cache data agar tidak perlu memuat ulang file setiap kali ada interaksi
 def muat_soal():
     """Memuat semua soal dari satu file JSON."""
-    file_path = 'bank_soal.json' # Nama file soal kita
+    file_path = 'data/bank_soal.json' # Nama file soal kita
     
     # Pastikan file ada
     if not os.path.exists(file_path):
