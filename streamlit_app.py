@@ -63,6 +63,11 @@ if not st.session_state.ujian_selesai and daftar_soal:
 
 # --- TAMPILAN HASIL DAN PEMBAHASAN ---
 elif st.session_state.ujian_selesai and daftar_soal:
+    st.markdown("""
+        <script>
+            window.parent.document.querySelector('section.main').scrollTo(0, 0);
+        </script>
+        """, unsafe_allow_html=True)
     st.header("✨ Hasil Ujian Anda")
     
     skor = 0
