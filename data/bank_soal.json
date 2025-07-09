@@ -1,38 +1,41 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Apa ibukota negara Indonesia?",
+    "pertanyaan": "KNALPOT : SEPEDA MOTOR = BALING-BALING = ...",
     "pilihan": {
-      "a": "Bandung",
-      "b": "Surabaya",
-      "c": "Jakarta",
-      "d": "Medan"
+      "a": "Berputar",
+      "b": "Terbang",
+      "c": "Helikopter",
+      "d": "Besi",
+      "e": "Angin"
     },
     "jawaban_benar": "c",
-    "penjelasan": "Jakarta adalah ibukota resmi Republik Indonesia dan merupakan kota terbesar di negara ini. Ditetapkan sebagai ibukota sejak kemerdekaan Indonesia pada tahun 1945."
+    "penjelasan": "Knalpot merupakan bagian dari sepeda motor, sebagaimana baling-baling merupakan bagian dari helikopter."
   },
   {
     "id": 2,
-    "pertanyaan": "Siapakah presiden pertama Republik Indonesia?",
+    "pertanyaan": "MINYAK : TELOR : MAYONES = ...",
     "pilihan": {
-      "a": "Soeharto",
-      "b": "Soekarno",
-      "c": "B.J. Habibie",
-      "d": "Joko Widodo"
+      "a": "Bunga : Matahari : Fotosintesis",
+      "b": "Suara : Gambar : Film",
+      "c": "Roda : Rangka : Mesin",
+      "d": "Piksel : Ultrasonik : Citra",
+      "e": "Data : Byte : Flashdisk"
     },
     "jawaban_benar": "b",
-    "penjelasan": "Ir. Soekarno adalah proklamator kemerdekaan Indonesia bersama Mohammad Hatta dan menjabat sebagai presiden pertama Indonesia dari tahun 1945 hingga 1967."
+    "penjelasan": "Olahan minyak dan telur menjadi mayones, sebagaimana olahan suara dan gambar menjadi film."
   },
   {
     "id": 3,
-    "pertanyaan": "Rumus kimia untuk air adalah...",
+    "pertanyaan": "SEPAK BOLA : GAWANG = ...",
     "pilihan": {
-      "a": "O2",
-      "b": "CO2",
-      "c": "H2O",
-      "d": "NaCl"
+      "a": "Hole : Golf",
+      "b": "Billiard : Meja",
+      "c": "Bola : Pemain",
+      "d": "Sepeda : Santai",
+      "e": "Basket : Ring"
     },
-    "jawaban_benar": "c",
-    "penjelasan": "H2O adalah rumus kimia untuk air, yang menunjukkan bahwa satu molekul air terdiri dari dua atom hidrogen (H) dan satu atom oksigen (O)."
+    "jawaban_benar": "e",
+    "penjelasan": "Karakteristik dari sepak bola adalah memasukkan bola kedalam gawang, sebagaimana karakteristik dari basket adalah memasukkan bola ke dalam ring."
   }
 ]
