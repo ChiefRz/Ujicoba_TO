@@ -91,7 +91,7 @@ elif st.session_state.ujian_selesai and daftar_soal:
     st.header("🔑 Kunci Jawaban dan Penjelasan")
     for i, soal in enumerate(daftar_soal):
         with st.container():
-            st.subheader(f"Soal {i+1}: {soal['pertanyaan']}")
+            st.subheader(f"{i+1}. {soal['pertanyaan']}")
             jawaban_benar = soal['jawaban_benar']
             jawaban_user = st.session_state.jawaban_pengguna.get(i)
             
