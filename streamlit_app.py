@@ -6,15 +6,16 @@ import streamlit.components.v1 as components
 # --- PENGATURAN AWAL ---
 st.set_page_config(page_title="Aplikasi Ujian Online", layout="wide")
 st.title("📝 Aplikasi Ujian Online Sederhana")
+# MENAMBAHKAN JANGKAR (ANCHOR) YANG TIDAK TERLIHAT DI SINI
+st.markdown("<a id='top'></a>", unsafe_allow_html=True)
 st.write("Jawablah pertanyaan di bawah ini dengan memilih salah satu jawaban yang paling tepat.")
 
 # --- FUNGSI UNTUK MEMUAT SOAL DARI SATU FILE ---
-@st.cache_data # Cache data agar tidak perlu memuat ulang file setiap kali ada interaksi
+@st.cache_data
 def muat_soal():
     """Memuat semua soal dari satu file JSON."""
-    file_path = 'data/bank_soal.json' # Nama file soal kita
+    file_path = 'data/bank_soal.json'
     
-    # Pastikan file ada
     if not os.path.exists(file_path):
         st.error(f"File soal '{file_path}' tidak ditemukan. Mohon buat dan upload filenya.")
         return []
@@ -30,8 +31,7 @@ def muat_soal():
         st.error(f"Terjadi error saat memuat soal: {e}")
         return []
 
-
-# --- BAGIAN UTAMA APLIKASI (Tidak ada yang berubah dari sini ke bawah) ---
+# --- BAGIAN UTAMA APLIKASI ---
 
 # --- MEMUAT DATA SOAL ---
 daftar_soal = muat_soal()
@@ -65,18 +65,16 @@ if not st.session_state.ujian_selesai and daftar_soal:
 # --- TAMPILAN HASIL DAN PEMBAHASAN ---
 elif st.session_state.ujian_selesai and daftar_soal:
     
+    # MENGGUNAKAN METODE JANGKAR UNTUK LANGSUNG LOMPAT KE ATAS
     components.html(
         """
         <script>
-        const streamlitDoc = window.parent.document;
-        const stApp = streamlitDoc.querySelector('.stApp');
-        if (stApp) {
-            stApp.scrollTo(0, 0);
-        }
+            window.location.hash = "#top";
         </script>
         """,
         height=0
     )
+    
     st.header("✨ Hasil Ujian Anda")
     
     skor = 0
@@ -92,24 +90,24 @@ elif st.session_state.ujian_selesai and daftar_soal:
     for i, soal in enumerate(daftar_soal):
         with st.container():
             st.subheader(f"{i+1}. {soal['pertanyaan']}")
-            jawaban_benar = soal['jawaban_benar']
-            jawaban_user = st.session_state.jawaban_pengguna.get(i)
             
-            # ... (bagian kode sebelumnya)
+            # Mendefinisikan kunci jawaban sekali saja untuk kebersihan kode
             jawaban_benar_key = soal['jawaban_benar']
-            jawaban_benar_lengkap = f"{jawaban_benar_key.upper()}. {soal['pilihan'][jawaban_benar_key]}"
-
             jawaban_user_key = st.session_state.jawaban_pengguna.get(i)
+            
+            # Membuat teks jawaban lengkap
+            jawaban_benar_lengkap = f"{jawaban_benar_key.upper()}. {soal['pilihan'][jawaban_benar_key]}"
             if jawaban_user_key:
                 jawaban_user_lengkap = f"{jawaban_user_key.upper()}. {soal['pilihan'][jawaban_user_key]}"
             else:
                 jawaban_user_lengkap = "Tidak dijawab"
 
+            # Menampilkan jawaban
             st.write(f"Jawaban Anda: **{jawaban_user_lengkap}**")
             st.write(f"Kunci Jawaban: **{jawaban_benar_lengkap}**")
-# ... (dst)
 
-            if jawaban_user == jawaban_benar:
+            # Memeriksa kebenaran jawaban
+            if jawaban_user_key == jawaban_benar_key:
                 st.markdown("✅ **Benar**")
             else:
                 st.markdown("❌ **Salah**")
