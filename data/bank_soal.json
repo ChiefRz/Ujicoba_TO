@@ -37,5 +37,161 @@
     },
     "jawaban_benar": "e",
     "penjelasan": "Karakteristik dari sepak bola adalah memasukkan bola kedalam gawang, sebagaimana karakteristik dari basket adalah memasukkan bola ke dalam ring."
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Koki : Masakan = Dokter : ...",
+    "pilihan": {
+      "a": "Rumah Sakir",
+      "b": "Obat",
+      "c": "Stetoskop",
+      "d": "Kesembuhan",
+      "e": "Bangsal"
+    },
+    "jawaban_benar": "e",
+    "penjelasan": "Karakteristik dari sepak bola adalah memasukkan bola kedalam gawang, sebagaimana karakteristik dari basket adalah memasukkan bola ke dalam ring."
+  },
+  {
+    "id": 5,
+    "pertanyaan": "BURUNG : SAYAP : UDARA = ...",
+    "pilihan": {
+      "a": "Manusia : Tangan : Bumi",
+      "b": "Kopi : Gula : Mantap",
+      "c": "Mie : Cabai : Pedang",
+      "d": "Paus : Insang : Laut",
+      "e": "Ikan : Sirip : Air"
+    },
+    "jawaban_benar": "e",
+    "penjelasan": "Karakteristik dari sepak bola adalah memasukkan bola kedalam gawang, sebagaimana karakteristik dari basket adalah memasukkan bola ke dalam ring."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "GEMETAR : ... = ... : LUCU ",
+    "pilihan": {
+      "a": "Lapar : Geli",
+      "b": "Sakit : Lelucon",
+      "c": "Gugup : Parodi",
+      "d": "Takut : Tertawa",
+      "e": "Bahaya : Pelawak"
+    },
+    "jawaban_benar": "e",
+    "penjelasan": "Karakteristik dari sepak bola adalah memasukkan bola kedalam gawang, sebagaimana karakteristik dari basket adalah memasukkan bola ke dalam ring."
+  },
+  {
+    "id": 7,
+    "pertanyaan": " ... : MENCOBLOS = TERBANG : ...",
+    "pilihan": {
+      "a": "Bilik : Angkasa",
+      "b": "Gambar : Pesawat",
+      "c": "Kandidat : Burung",
+      "d": "Kartu : Layang-Layang",
+      "e": "Memilih : Mendarat"
+    },
+    "jawaban_benar": "",
+    "penjelasan": ""
+  },
+  {
+    "id": 8,
+    "pertanyaan": " ... : TUNA KARYA = TEMPAT TINGGAL : ... ",
+    "pilihan": {
+      "a": "Pekerjaan : Gelandangan",
+      "b": "Gagal : Nyaman",
+      "c": "Penghasilan : Rumah",
+      "d": "Karyawan : Lingkaran",
+      "e": "Pengangguran : Tuna Wisma"
+    },
+    "jawaban_benar": "",
+    "penjelasan": ""
+  },
+  {
+    "id": 9,
+    "pertanyaan": "MURAH HATI : ... = ... : PEJAL",
+    "pilihan": {
+      "a": "Pelit : Keras",
+      "b": "Mulia : Besi",
+      "c": "Derma : Bola",
+      "d": "Hemat : Berongga",
+      "e": "Dermawan : Isi"
+    },
+    "jawaban_benar": "",
+    "penjelasan": ""
+  },
+  {
+    "id": 10,
+    "pertanyaan": "LILIN : SENTER : LAMPU NEON = ...",
+    "pilihan": {
+      "a": "Becak : Sepeda : Otoped",
+      "b": "Buku : Novel : Agenda",
+      "c": "Pensil : Pulpen : Kuas",
+      "d": "Koran : TV : Papan Pengumuman",
+      "e": "Roda : Holahop : Koin"
+    },
+    "jawaban_benar": "",
+    "penjelasan": ""
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Petani Maju Harapan membanggakan hasil panennya. Kalimat yang berpolakan sama dengan pola tersebut adalah ...",
+    "pilihan": {
+      "a": "Saya berasal dari Indonesia",
+      "b": "Kakak tertidur pulas",
+      "c": "Petani itu menanam jagung di ladang",
+      "d": "Pak Ustadz sedang berceramah di masjid",
+      "e": "Israel menjajah Negara Palestina"
+    },
+    "jawaban_benar": "",
+    "penjelasan": ""
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Zaki membeli majalah baru di toko buku. Kalimat yang berpolakan sama dengan pola tersebut adalah ...",
+    "pilihan": {
+      "a": "Mantan istriku telah menikah dengan sahabat terbaikku",
+      "b": "Budi makan sup ayam yang sangat pedas di kantin sekolah",
+      "c": "Saya sedang sangat membenci tentara Israel",
+      "d": "Yosime minum vitamin agar sehat",
+      "e": "Wanda mencuci sepeda motor miliknya"
+    },
+    "jawaban_benar": "",
+    "penjelasan": ""
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Laki-laki bertopi itu sedang menghitung uang dengan teliti. Kalimat yang tidak berpolakan sama dengan pola tersebut adalah ...",
+    "pilihan": {
+      "a": "Ibu membuatkan adik bubur ayam ketika sakit",
+      "b": "Perempuan berkerudung putih itu mengerjakan tugas dengan lambat",
+      "c": "Nurul merawat ibu di rumah sakit",
+      "d": "Ariel menyanyikan sebuah lagu di panggung",
+      "e": "Ridwan mendorong motornya di jalan raya"
+    },
+    "jawaban_benar": "",
+    "penjelasan": ""
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Adinda memberikan Ayah sebuah peci dari Aceh. Kalimat yang berpolakan sama dengan pola tersebut adalah ...",
+    "pilihan": {
+      "a": "la melakukan salat agar terbebas dari siksaan api neraka",
+      "b": "Kucing mengejar tikus di rumah",
+      "c": "Maya membawakan Chandra bekal setiap hari",
+      "d": "Para nelayan memancing ikan setiap malam",
+      "e": "Bu guru memberikan banyak PR hari ini"
+    },
+    "jawaban_benar": "",
+    "penjelasan": ""
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Tubuhnya bercucuran keringat karena berolahraga. Kalimat yang tidak berpolakan sama dengan pola tersebut adalah ...",
+    "pilihan": {
+      "a": "Ibu telah menjual perhiasan karena terlilit pinjol",
+      "b": "Es krim itu berlapis cokelat dari Belgia",
+      "c": "Dua pemuda itu sedang bermain gitar di pos ronda",
+      "d": "Anak-anak itu tengah berlatih sepakbola di lapangan Mangunharjo",
+      "e": "Pak Usman tengah berjualan daging ayam di pasar itu"
+    },
+    "jawaban_benar": "",
+    "penjelasan": ""
   }
 ]
