@@ -48,8 +48,8 @@
       "d": "Kesembuhan",
       "e": "Bangsal"
     },
-    "jawaban_benar": "e",
-    "penjelasan": "Karakteristik dari sepak bola adalah memasukkan bola kedalam gawang, sebagaimana karakteristik dari basket adalah memasukkan bola ke dalam ring."
+    "jawaban_benar": "b",
+    "penjelasan": "Koki membuat resep masakan, sebagaimana dokter membuat resep obat."
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
       "e": "Ikan : Sirip : Air"
     },
     "jawaban_benar": "e",
-    "penjelasan": "Karakteristik dari sepak bola adalah memasukkan bola kedalam gawang, sebagaimana karakteristik dari basket adalah memasukkan bola ke dalam ring."
+    "penjelasan": "Burung bergerak dengan sayap di udara, sebagaimana ikan bergerak dengan sirip di air."
   },
   {
     "id": 6,
@@ -74,8 +74,8 @@
       "d": "Takut : Tertawa",
       "e": "Bahaya : Pelawak"
     },
-    "jawaban_benar": "e",
-    "penjelasan": "Karakteristik dari sepak bola adalah memasukkan bola kedalam gawang, sebagaimana karakteristik dari basket adalah memasukkan bola ke dalam ring."
+    "jawaban_benar": "d",
+    "penjelasan": "Saat merasa takut akan gemetar, sebagaimana saat merasa lucu akan tertawa."
   },
   {
     "id": 7,
@@ -87,8 +87,8 @@
       "d": "Kartu : Layang-Layang",
       "e": "Memilih : Mendarat"
     },
-    "jawaban_benar": "",
-    "penjelasan": ""
+    "jawaban_benar": "e",
+    "penjelasan": "Setelah memilih lalu mencoblos, sebagaimana setelah terbang lalu mendarat."
   },
   {
     "id": 8,
@@ -100,8 +100,8 @@
       "d": "Karyawan : Lingkaran",
       "e": "Pengangguran : Tuna Wisma"
     },
-    "jawaban_benar": "",
-    "penjelasan": ""
+    "jawaban_benar": "a",
+    "penjelasan": "Tanpa pekerjaan disebut tuna karya, sebagaimana tanpa tempat tinggal disebut gelandangan."
   },
   {
     "id": 9,
@@ -113,8 +113,8 @@
       "d": "Hemat : Berongga",
       "e": "Dermawan : Isi"
     },
-    "jawaban_benar": "",
-    "penjelasan": ""
+    "jawaban_benar": "e",
+    "penjelasan": "Murah hati sama dengan dermawan, sebagaimana isi sama dengan pejal."
   },
   {
     "id": 10,
@@ -126,8 +126,8 @@
       "d": "Koran : TV : Papan Pengumuman",
       "e": "Roda : Holahop : Koin"
     },
-    "jawaban_benar": "",
-    "penjelasan": ""
+    "jawaban_benar": "d",
+    "penjelasan": "Lilin, senter, dan lampu neon termasuk alat penerangan, sebagaimana koran, TV, dan papan pengumuman termasuk alat penyampai informasi."
   },
   {
     "id": 11,
@@ -139,8 +139,8 @@
       "d": "Pak Ustadz sedang berceramah di masjid",
       "e": "Israel menjajah Negara Palestina"
     },
-    "jawaban_benar": "",
-    "penjelasan": ""
+    "jawaban_benar": "e",
+    "penjelasan": "“Petani Maju Harapan membanggakan hasil panennya”, berpola sama dengan ”Israel menjajah Negara Palestina”"
   },
   {
     "id": 12,
@@ -152,8 +152,8 @@
       "d": "Yosime minum vitamin agar sehat",
       "e": "Wanda mencuci sepeda motor miliknya"
     },
-    "jawaban_benar": "",
-    "penjelasan": ""
+    "jawaban_benar": "d",
+    "penjelasan": "“Zaki membeli majalah baru di toko buku”, berpola sama dengan ”Yosime minum vitamin agar sehat”"
   },
   {
     "id": 13,
@@ -165,8 +165,8 @@
       "d": "Ariel menyanyikan sebuah lagu di panggung",
       "e": "Ridwan mendorong motornya di jalan raya"
     },
-    "jawaban_benar": "",
-    "penjelasan": ""
+    "jawaban_benar": "a",
+    "penjelasan": "“Laki-laki bertopi itu sedang menghitung uang dengan teliti”, TIDAK berpola sama dengan ”Ibu membuatkan adik bubur ayam Ketika sakit”"
   },
   {
     "id": 14,
@@ -178,8 +178,8 @@
       "d": "Para nelayan memancing ikan setiap malam",
       "e": "Bu guru memberikan banyak PR hari ini"
     },
-    "jawaban_benar": "",
-    "penjelasan": ""
+    "jawaban_benar": "c",
+    "penjelasan": "“Adinda memberikan Ayah sebuah peci dari Aceh”, berpola sama dengan ”Maya membawakan Chandra bekal setiap hari”"
   },
   {
     "id": 15,
@@ -191,7 +191,72 @@
       "d": "Anak-anak itu tengah berlatih sepakbola di lapangan Mangunharjo",
       "e": "Pak Usman tengah berjualan daging ayam di pasar itu"
     },
-    "jawaban_benar": "",
-    "penjelasan": ""
+    "jawaban_benar": "a",
+    "penjelasan": "“Tubuhnya bercucuran keringat karena berolahraga”, TIDAK berpola sama dengan ”Ibu telah menjual perhiasan karena terlilit pinjol”"
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Ahmad berdagang cilok menggunakan gerobak. Kalimat yang berpolakan sama dengan pola tersebut adalah ...",
+    "pilihan": {
+      "a": "Ami mempresentasikan hasil karyanya dengan jelas",
+      "b": "Farah harus belajar lebih giat agar lulus seleksi",
+      "c": "Ayah memotong kepala ikan dengan pisau",
+      "d": "Demo mahasiswa berlangsung secara tertib dan damai",
+      "e": "Husnul makan rujak yang pedas kemarin"
+    },
+    "jawaban_benar": "b",
+    "penjelasan": "“Ahmad berdagang cilok menggunakan gerobak”, berpola sama dengan ”Farah harus belajar lebih giat agar lulus seleksi”"
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Hubungan objek pada kalimat “Reza menjual sepeda motor dan mobil miliknya untuk memenuhi biaya Pilkada tahun ini“ setara dengan ...",
+    "pilihan": {
+      "a": "Ayu membeli mangga dan manggis di Pasar Pagi",
+      "b": "Rina meminjamkan handuk dan sandal untuk dipakai kakaknya",
+      "c": "Yono mengeluh dan meratap diri karena gagal lulus seleksi ASN",
+      "d": "Muhaimin pergi ke sekolah dan masjid hari ini",
+      "e": "Zaki mempelajari TWK siang dan malam hari"
+    },
+    "jawaban_benar": "a",
+    "penjelasan": "Hubungan objek pada kalimat “Reza menjual sepeda motor dan mobil miliknya untuk memenuhi biaya Pilkada tahun ini” setara dengan ”Ayu membeli mangga dan manggis di Pasar Pagi”."
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Hubungan objek pada kalimat “Bu Tati membeli ikan mujair dan salmon di Pelabuhan terdekat“ setara dengan ...",
+    "pilihan": {
+      "a": "Paman pergi ke bengkel dan halte kemarin",
+      "b": "Laila mengonsumsi obat dan jambu biji karena ia sedang demam",
+      "c": "Yadi membawa laptop dan chargernya untuk reparasi berkala",
+      "d": "Faisal menanam kangkung dan kemangi di halaman rumah ",
+      "e": "Saat sarapan, Tari makan nasi dan kerupuk dengan lahap"
+    },
+    "jawaban_benar": "d",
+    "penjelasan": "Hubungan objek pada kalimat “Bu Tati membeli ikan mujair dan salmon di Pelabuhan terdekat” setara dengan “Faisal menanam kangkung dan kemangi di halaman rumah”."
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Hubungan objek pada kalimat “Nida mempelajari sosiologi dan ekonomi di sekolah dengan antusias“ setara dengan ...",
+    "pilihan": {
+      "a": "Pak Wanda membagikan ilmu kaligrafi kepada siswa SMP dan SMA setempat",
+      "b": "Bu Husna mengajarkan biologi dan fisika setiap Selasa dan Rabu",
+      "c": "Joko mempelajari Bahasa Arab untuk persiapan lomba pidato dengan penuh semangat",
+      "d": "Ayu mengerjakan proposal dan rencana kegiatan di kampus bersama mahasiswi lainnya",
+      "e": "Zaki membaca dan menulis materi untuk persiapan ulangan PPKN"
+    },
+    "jawaban_benar": "b",
+    "penjelasan": "Hubungan objek pada kalimat “Nida mempelajari sosiologi dan ekonomi di sekolah dengan antusias” setara dengan “Bu Husna mengajarkan biologi dan fisika setiap Selasa dan Rabu”."
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Hubungan objek pada kalimat “Ahmad telah menguasai seruling dan terompet sejak masa Sekolah Dasar“ setara dengan ...",
+    "pilihan": {
+      "a": "Bu Yeni secara khusus menjual sasando dan saksofon di toko alat musiknya",
+      "b": "Kepala sekolah telah menyediakan harmonica dan rebana untuk acara Penyambutan Tahun Baru Islam",
+      "c": "Ayla sedang memandang tarawangsa dan pianika yang terpajang di kamar Rosa",
+      "d": "Joshua beranggapan bahwa piano dan angklung harus dikolaborasikan untuk menghasilkan musik modern",
+      "e": "Maya membeli ukulele dan gitar sebagai kado untuk adiknya yang senang bermain musik"
+    },
+    "jawaban_benar": "e",
+    "penjelasan": "Hubungan objek pada kalimat “Ahmad telah menguasai seruling dan terompet sejak masa Sekolah Dasar” setara dengan “Maya membeli ukulele dan gitar sebagai kado untuk adiknya yang senang bermain musik”."
   }
 ]
