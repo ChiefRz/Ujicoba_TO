@@ -46,7 +46,7 @@ if 'ujian_selesai' not in st.session_state:
 if not st.session_state.ujian_selesai and daftar_soal:
     with st.form("form_ujian"):
         for i, soal in enumerate(daftar_soal):
-            st.subheader(f"Soal {i+1}: {soal['pertanyaan']}")
+            st.subheader(f"{i+1}. {soal['pertanyaan']}")
             pilihan_jawaban = [f"{key.upper()}) {value}" for key, value in soal['pilihan'].items()]
             jawaban = st.radio(
                 "Pilih jawaban Anda:",
